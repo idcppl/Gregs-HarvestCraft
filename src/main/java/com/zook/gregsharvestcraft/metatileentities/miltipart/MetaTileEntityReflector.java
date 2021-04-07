@@ -31,9 +31,6 @@ public class MetaTileEntityReflector extends MetaTileEntityMultiblockPart implem
 
     @Override
     public void update() {
-        if(getController() != null) {
-            super.update();
-        }
     }
 
     @Override
