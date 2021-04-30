@@ -31,7 +31,7 @@ public class DrinkableFluids {
     }
 
     public static void init() {
-        new DrinkableFluids(GHCMaterials.AppleJelly.fluid, 2, config.mealsaturation);
-        new DrinkableFluids(GHCMaterials.GrapeJelly.fluid, 2, config.mealsaturation);
+        new DrinkableFluids(GHCMaterials.AppleJelly.fluid, 2, 1.2F);
+        new DrinkableFluids(GHCMaterials.GrapeJelly.fluid, 2, 1.2F);
     }
 }

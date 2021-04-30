@@ -2,7 +2,6 @@ package com.zook.gregsharvestcraft.materials;
 
 import com.google.common.collect.ImmutableList;
 import com.zook.gregsharvestcraft.GregsHarvestCraft;
-import gregtech.api.GTValues;
 import gregtech.api.unification.stack.MaterialStack;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.fluids.Fluid;
@@ -57,7 +56,7 @@ public class SimpleFluidMaterial extends SimpleMaterial {
     public enum FluidTextures {
         liquid(new ResourceLocation(GregsHarvestCraft.MODID, "blocks/fluids/fluid.liquid"), new ResourceLocation(GregsHarvestCraft.MODID, "blocks/fluids/fluid.liquid")),
         smooth(new ResourceLocation(GregsHarvestCraft.MODID, "blocks/fluids/fluid.smooth"), new ResourceLocation(GregsHarvestCraft.MODID, "blocks/fluids/fluid.smooth")),
-        molten(new ResourceLocation(GTValues.MODID, "blocks/fluids/fluid.molten"), new ResourceLocation(GTValues.MODID, "blocks/fluids/fluid.molten")),
+        molten(new ResourceLocation(GregsHarvestCraft.MODID, "blocks/fluids/fluid.molten"), new ResourceLocation(GregsHarvestCraft.MODID, "blocks/fluids/fluid.molten")),
         lava(new ResourceLocation(GregsHarvestCraft.MODID, "blocks/fluids/fluid.lava"), new ResourceLocation(GregsHarvestCraft.MODID, "blocks/fluids/fluid.lava")),
         powder(new ResourceLocation(GregsHarvestCraft.MODID, "blocks/fluids/fluid.powder"), new ResourceLocation(GregsHarvestCraft.MODID, "blocks/fluids/fluid.powder"));
         public ResourceLocation flowing;

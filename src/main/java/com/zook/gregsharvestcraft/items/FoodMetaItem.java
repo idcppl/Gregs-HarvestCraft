@@ -5,7 +5,6 @@ import gregtech.api.items.metaitem.FoodUseManager;
 import gregtech.api.items.metaitem.MetaItem;
 import gregtech.api.items.metaitem.StandardMetaItem;
 import gregtech.api.items.metaitem.stats.IItemUseManager;
-import net.minecraft.client.resources.I18n;
 import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.player.EntityPlayer;
@@ -15,13 +14,6 @@ import net.minecraft.util.ActionResult;
 import net.minecraft.util.EnumActionResult;
 import net.minecraft.util.EnumHand;
 import net.minecraft.world.World;
-import net.minecraftforge.fluids.FluidStack;
-import net.minecraftforge.fluids.capability.CapabilityFluidHandler;
-import net.minecraftforge.fluids.capability.IFluidHandlerItem;
-import net.minecraftforge.fluids.capability.IFluidTankProperties;
-import net.minecraftforge.fml.relauncher.Side;
-import net.minecraftforge.fml.relauncher.SideOnly;
-import net.minecraftforge.items.ItemHandlerHelper;
 
 import javax.annotation.Nullable;
 import java.util.List;
@@ -78,15 +70,5 @@ public class FoodMetaItem extends StandardMetaItem {
     @Override
     protected int getColorForItemStack(ItemStack stack, int tintIndex) {
         return 0xFFFFFF;
-    }
-
-    @Override
-    public void addInformation(ItemStack itemStack, @Nullable World worldIn, List<String> lines, ITooltipFlag tooltipFlag) {
-        super.addInformation(itemStack, worldIn, lines, tooltipFlag);
-        IItemUseManager useManager = getUseManager(itemStack);
-        if(useManager != null) {
-            FoodUseManager foodUseManager = (FoodUseManager) useManager;
-            foodUseManager.addInformation(itemStack, lines);
-        }
     }
 }

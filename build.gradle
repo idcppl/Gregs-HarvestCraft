@@ -58,6 +58,7 @@ dependencies {
 
     deobfCompile "gregtechce:gregtech:1.12.2:1.14.0.689"
     compile "curse.maven:pamsharvestcraft-221857:2904825"
+    compile "curse.maven:appleskin-248787:2987247"
 
     deobfCompile "codechicken-lib-1-8:CodeChickenLib-1.12.2:3.2.3.357:universal"
 }

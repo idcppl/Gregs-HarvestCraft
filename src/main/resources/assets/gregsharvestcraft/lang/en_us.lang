@@ -1,6 +1,110 @@
-fluid.mayo=Mayo
-fluid.grape_jelly=Grape Jelly
+# spices/ingredients
+fluid.black_pepper=Black Pepper
+fluid.brown_sugar=Brown Sugar
+fluid.cocoa_powder=Cocoa Powder
+fluid.cornmeal=Cornmeal
+fluid.curry_powder=Curry Powder
+fluid.flour=Flour
+fluid.ground_cinnamon=Ground Cinnamon
+fluid.ground_nutmeg=Ground Nutmeg
+fluid.salt=Salt
+fluid.white_sugar=White Sugar
+
+# dairies
+fluid.banana_milkshake=Banana Milkshake
+fluid.caramel_ice_cream=Caramel Ice Cream
+fluid.cherry_ice_cream=Cherry Ice Cream
+fluid.chocolate_ice_cream=Chocolate Ice Cream
+fluid.chocolate_milk=Chocolate Milk
+fluid.chocolate_milkshake=Chocolate Milkshake
+fluid.coconut_milk=Coconut Milk
+fluid.durian_milkshake=Durian Milkshake
+fluid.gooseberry_milkshake=Gooseberry Milkshake
+fluid.heavy_cream=Heavy Cream
+fluid.ice_cream=Ice Cream
+fluid.mint_chocolate_chip_ice_cream=Mint Chocolate Chip Ice Cream
+fluid.mocha_ice_cream=Mocha Ice Cream
+fluid.neapolitan_ice_cream=Neapolitan Ice Cream
+fluid.pistachio_ice_cream=Pistachio Ice Cream
+fluid.soy_milk=Soy Milk
+fluid.spumoni_ice_cream=Spumoni Ice Cream
+fluid.strawberry_ice_cream=Strawberry Ice Cream
+fluid.strawberry_milkshake=Strawberry Milkshake
+fluid.vanilla_ice_cream=Vanilla Ice Cream
+
+# idk
+fluid.vinegar=Vinegar
+
+# condiments
 fluid.ketchup=Ketchup
+fluid.peanut_butter=Peanut Butter
+fluid.maple_syrup=Maple Syrup
+fluid.mayo=Mayo
+# jellies
+fluid.apple_jelly=Apple Jelly
+fluid.apricot_jelly=Apricot Jelly
+fluid.blackberry_jelly=Blackberry Jelly
+fluid.blueberry_jelly=Blueberry Jelly
+fluid.cherry_jelly=Cherry Jelly
+fluid.cranberry_jelly=Cranberry Jelly
+fluid.fig_jelly=Fig Jelly
+fluid.gooseberry_jelly=Gooseberry Jelly
+fluid.grape_jelly=Grape Jelly
+fluid.grapefruit_jelly=Grapefruit Jelly
+fluid.kiwi_jelly=Kiwi Jelly
+fluid.lemon_jelly=Lemon Jelly
+fluid.lime_jelly=Lime Jelly
+fluid.mango_jelly=Mango Jelly
+fluid.orange_jelly=Orange Jelly
+fluid.papaya_jelly=Papaya Jelly
+fluid.peach_jelly=Peach Jelly
+fluid.pear_jelly=Pear Jelly
+fluid.pepper_jelly=Pepper Jelly
+fluid.persimmon_jelly=Persimmon Jelly
+fluid.plum_jelly=Plum Jelly
+fluid.pomegranate_jelly=Pomegranate Jelly
+fluid.raspberry_jelly=Raspberry Jelly
+fluid.royal_jelly=Royal Jelly
+fluid.starfruit_jelly=Starfruit Jelly
+fluid.strawberry_jelly=Strawberry Jelly
+fluid.watermelon_jelly=Watermelon Jelly
+
+# juices
+fluid.apple_juice=Apple Juice
+fluid.apricot_juice=Apricot Juice
+fluid.blackberry_juice=Blackberry Juice
+fluid.blueberry_juice=Blueberry Juice
+fluid.cactus_fruit_juice=Cactus Fruit Juice
+fluid.carrot_juice=Carrot Juice
+fluid.cherry_juice=Cherry Juice
+fluid.cranberry_juice=Cranberry Juice
+fluid.fig_juice=Fig Juice
+fluid.grape_juice=Grape Juice
+fluid.grapefruit_juice=Grapefruit Juice
+fluid.kiwi_juice=Kiwi Juice
+fluid.lemonade=Lemonade
+fluid.lime_juice=Lime Juice
+fluid.mango_juice=Mango Juice
+fluid.melon_juice=Melon Juice
+fluid.orange_juice=Orange Juice
+fluid.papaya_juice=Papaya Juice
+fluid.peach_juice=Peach Juice
+fluid.pear_juice=Pear Juice
+fluid.persimmon_juice=Persimmon Juice
+fluid.plum_juice=Plum Juice
+fluid.pomegranate_juice=Pomegranate Juice
+fluid.raspberry_juice=Raspberry Juice
+fluid.starfruit_juice=Starfruit Juice
+fluid.strawberry_juice=Strawberry Juice
+
+# yogurts
+fluid.apple_yogurt=Apple Yogurt
+fluid.apricot_yogurt=Apricot Yogurt
+fluid.banana_yogurt=Banana Yogurt
+fluid.blackberry_yogurt=Blackberry Yogurt
+
+
+
 metaitem.bowl.name=%s Bowl
 metaitem.tall_glass.name=%s Glass
 metaitem.soda_bottle.name=%s Tall Bottle

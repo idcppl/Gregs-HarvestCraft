@@ -1,6 +1,7 @@
 package com.zook.gregsharvestcraft;
 
 import codechicken.lib.texture.TextureUtils;
+import com.zook.gregsharvestcraft.util.MetaItemTooltipOverlay;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.client.event.TextureStitchEvent;
 import net.minecraftforge.fml.common.Mod;
@@ -19,7 +20,7 @@ public class ClientProxy extends CommonProxy {
 
     @Override
     public void onLoad() {
-
+        MetaItemTooltipOverlay.init();
     }
 
     @Override

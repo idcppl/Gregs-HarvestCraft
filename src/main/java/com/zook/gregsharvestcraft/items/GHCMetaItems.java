@@ -13,6 +13,7 @@ public class GHCMetaItems {
     public static MetaItem<?>.MetaValueItem POTION_BOTTLE;
     public static MetaItem<?>.MetaValueItem MASON_JAR;
     public static MetaItem<?>.MetaValueItem CONDIMENTS_BOWL;
+    public static MetaItem<?>.MetaValueItem TEST;
 
     public static void init() {
         GHCMetaItem item = new GHCMetaItem();

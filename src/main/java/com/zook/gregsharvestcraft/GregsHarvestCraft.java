@@ -15,7 +15,7 @@ public class GregsHarvestCraft {
     public static final String NAME = "Greg's HarvestCraft";
     public static final String VERSION = "0.0.1";
 
-    private static Logger logger;
+    public static Logger logger;
 
     @SidedProxy(modId = GregsHarvestCraft.MODID, clientSide = "com.zook.gregsharvestcraft.ClientProxy", serverSide = "com.zook.gregsharvestcraft.CommonProxy")
     public static CommonProxy proxy;
@@ -25,12 +25,13 @@ public class GregsHarvestCraft {
         GHCFluids.init();
         GHCMetaItems.init();
         GHCMetaTileEntities.init();
+        DrinkableFluids.init();
         proxy.onPreLoad();
     }
 
     @EventHandler
     public void init(FMLInitializationEvent event) {
-        DrinkableFluids.init();
+        proxy.onLoad();
     }
 
 }

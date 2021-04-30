@@ -25,7 +25,7 @@ import net.minecraftforge.items.ItemStackHandler;
 public class MetaTileEntityRainTank extends MultiblockControllerBase {
 
     private static final MultiblockAbility<?>[] ALLOWED_ABILITIES = {
-            MultiblockAbility.IMPORT_FLUIDS, MultiblockAbility.EXPORT_FLUIDS, GHCMultiblockAbility.REFLECTOR
+            MultiblockAbility.IMPORT_FLUIDS, MultiblockAbility.EXPORT_FLUIDS, GHCMultiblockAbility.REFLECTOR, MultiblockAbility.IMPORT_ITEMS, MultiblockAbility.EXPORT_ITEMS
     };
 
     public MetaTileEntityRainTank(ResourceLocation metaTileEntityId) {
